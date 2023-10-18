@@ -190,22 +190,45 @@ int main()
 
     // ----------------------------------
 
+    // int n;
+    // cout << "Enter Your Number:" << endl;
+    // cin >> n;
+    // int i = 1;
+
+    // while (i <= n)
+    // {
+
+    //     int j = 1;
+    //     while (j <= n)
+    //     {
+    //         char ch = 'A' + j - 1;
+    //         cout << ch;
+    //         j++;
+    //     }
+
+    //     cout << endl;
+    //     i++;
+    // }
+
+    // ---------------------------------------------
+
     int n;
-    cout << "Enter Your Number:" << endl;
+    cout << "Enter Your No:" << endl;
     cin >> n;
-    int i = 1;
+    int i = 0;
 
     while (i <= n)
     {
 
         int j = 1;
+
         while (j <= n)
         {
-            char ch = 'A' + j - 1;
+            char ch = 'A' + i + j - 1;
             cout << ch;
+
             j++;
         }
-
         cout << endl;
         i++;
     }
